@@ -49,7 +49,7 @@ export def PickFile(qarg: string, qmods: string)
     pos: 'center',
     maxwidth: &columns - 10,
     maxheight: &lines - 10,
-    mapping: 1,
+    mapping: false,
     fixed: 1,
     cb: (id: number, result: number) => {
       if result < 0
